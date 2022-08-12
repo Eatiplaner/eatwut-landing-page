@@ -60,14 +60,6 @@ export default function Home() {
                   <a href="#contact" class="nav-link">Contact Us</a>
                 </li>
               </ul>
-              <ul class="navbar-nav navbar-center">
-                <li class="nav-item">
-                  <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="btn btn-sm nav-btn" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
-                </li>
-              </ul>
             </div>
           </div>
         </nav>
@@ -873,98 +865,6 @@ export default function Home() {
         </div>
 
         <a href="#" onclick="topFunction()" class="back-to-top-btn btn btn-gradient-primary" id="back-to-top"><i class="mdi mdi-chevron-up"></i></a>
-
-        <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-body p-4">
-                <div class="text-center mb-4">
-                  <h4 class="mb-0">Welcome Back</h4>
-                  <p class="text-muted fs-15">Welcome back! Please enter your details.</p>
-                </div>
-                <div class="mb-3">
-                  <label for="emailAddress" class="form-label">Email Address</label>
-                  <input type="email" class="form-control" id="emailAddress" placeholder="Your email..." />
-                </div>
-                <div class="mb-2">
-                  <label for="inputPasseord" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="inputPasseord" />
-                </div>
-                <div class="d-flex justify-content-between align-items-center mb-4 pb-2">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                    <label class="form-check-label" for="flexCheckDefault">
-                      Remember for 30 days
-                    </label>
-                  </div>
-                  <a href="javascript:void(0);" class="text-secondary fs-13">Forgot Password..?</a>
-                </div>
-
-                <a href="javascript:void(0);" class="btn btn-gradient-primary w-100" data-bs-dismiss="modal">Sign up</a>
-                <div class="text-center">
-                  <div class="position-relative my-4">
-                    <span class="bg-soft-secondary w-100 d-inline-block" style="height: 1px;"></span>
-                    <p class="text-muted fs-15 mb-0 mt-1 bg-white px-2 position-absolute top-50 start-50 translate-middle">
-                      Or continue with
-                    </p>
-                  </div>
-                  <ul class="list-inline mb-0">
-                    <li class="list-inline-item">
-                      <a href="javascript:void(0);" class="btn btn-danger">
-                        <img src="images/auth-icon/google.png" alt="google" class="img-fluid" width="24" />
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="javascript:void(0);" class="btn btn-primary">
-                        <img src="images/auth-icon/facebook.png" alt="" class="img-fluid" width="24" />
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="javascript:void(0);" class="btn btn-info">
-                        <img src="images/auth-icon/twitter.png" alt="" class="img-fluid" width="24" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="signupModal" tabindex="-1" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-body p-4">
-                <div class="text-center mb-4">
-                  <h4 class="">Sign up</h4>
-                  <p class="text-muted text-uppercase fs-14">Start For Free</p>
-                </div>
-                <div class="mb-3">
-                  <label for="firstName" class="form-label">First Name</label>
-                  <input type="text" class="form-control" id="firstName" placeholder="Your first name..." />
-                </div>
-                <div class="mb-3">
-                  <label for="lasttName" class="form-label">Last Name</label>
-                  <input type="text" class="form-control" id="lasttName" placeholder="Your last name..." />
-                </div>
-                <div class="mb-3">
-                  <label for="emailAddress1" class="form-label">Email Address</label>
-                  <input type="email" class="form-control" id="emailAddress1" placeholder="Your email..." />
-                </div>
-                <div class="mb-2">
-                  <label for="inputPasseord2" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="inputPasseord2" />
-                </div>
-                <div class="form-check mb-4 pb-2">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1" />
-                  <label class="form-check-label" for="flexCheckDefault1"> I agree to the <a href="javascript:void(0);">Terms of Service</a> and <a href="javascript:void(0);">Privacy Policy</a> </label>
-                </div>
-
-                <a href="javascript:void(0);" class="btn btn-gradient-primary w-100" data-bs-dismiss="modal">Create account</a>
-              </div>
-            </div>
-          </div>
-        </div>
       </body>
     </div>
   );
